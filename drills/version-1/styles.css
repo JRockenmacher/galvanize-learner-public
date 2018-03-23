@@ -37,7 +37,6 @@ a:hover {
 .header-box {
     background-color: cornflowerblue; 
     display: flex;
-    justify-content: baseline;
     justify-content: space-between;
     align-items: center; 
 }
@@ -45,7 +44,7 @@ a:hover {
 .left-header {
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: flex-start;
     margin-left: 25px;
 }
 
@@ -58,7 +57,7 @@ h1 {
 }
 .nav {
     display: flex;
-    justify-content: baseline;
+    justify-content: space-around;
     margin-right: 25px;
 }
 
@@ -79,7 +78,16 @@ main {
     padding: 30px;
     margin: auto;
 }
+.fluff-box {
+    display: flex;
+    justify-content: space-around;
+}
 
+.fluff-img {
+    width: 600px;
+    height: 350px;
+    border-radius: 10%;
+}
 .image-holder {
     display: flex;
     justify-content: space-between; 
@@ -170,6 +178,5 @@ footer {
 
 .footer-contact {
     display: flex;
-    justify-content: baseline;
     align-items: center;
 }

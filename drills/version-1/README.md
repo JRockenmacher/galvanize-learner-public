@@ -21,3 +21,4 @@ Reuse/repurpose content from your previous drills for this site.
 ### Submission
 
 Put a deployed link to your site [here](#), and submit the URL to this repo.
+URL for Firebase Site: https://console.firebase.google.com/project/g-school-p1-personal-site/hosting/main
